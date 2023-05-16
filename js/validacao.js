@@ -8,6 +8,7 @@ export function valida(input) {
     
     if(input.validity.valid) {
         input.parentElement.classList.remove("input-container--invalido")
+        input.parentElement.querySelector("input-mensagem-erro")
      }else {
          input.parentElement.classList.add("input-containerr--invalido")
      }
