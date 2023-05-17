@@ -55,7 +55,10 @@ export function valida(input) {
         },
         estado: { 
             valueMissing: 'O campo de Estado mão pode estar vazio.',
-    },
+        },
+        preco: {
+            valueMissing: 'O campo de de preço não pode estar vazio.',
+        },
     }
 
 
